@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 30, 2016, 5:16:35 AM
+    Author     : student16
+*/
+#skel-layers-inactiveWrapper {
+    display: none !important;
+}
+#skel-layers-hiddenWrapper
+{
+    display:none;
+}
+#header
+{
+    height     : 200px;
+}
+#img-small
+{
+    width     : 100%;
+}
+#BigBody{
+   
+    height:800px;
+    background-image: url('C:\Users\student16\Documents\NetBeansProjects\project104\web\wallpaper.jpg');
+}
+#body
+{
+    height:500px;
+}
+li
+{
+    color:white;
+}
+#navigation
+{
+    background-color: white;
+    
+}

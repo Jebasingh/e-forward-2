@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.css">
+         <link rel="stylesheet" href="css/mystyle.css">
+        <title>PROJECT104</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body background="wallfpaper.jpg">
+        <div id="BigBody" class="container-fluid">
+            <div  id="header" class="container col-lg-12">
+                <div class="col-lg-2">
+                <img  alt="logo" id="img-small"src="logo.png"></img> </div>
+                <div class="col-lg-8">
+                <span><h1>PROJECT104</h1></span></div>
+                
+            </div>
+           <div  id="navigation" class="container col-lg-12"  >
+               <!-- navigation tab-->
+               <ul id="colorWhite" class="nav nav-tabs nav-justified">
+                <li role="presentation" class="col-lg-2 "><a href="index.html">Home</a></li>
+                <li role="presentation" class="col-lg-2"><a href="profile.html">Profile</a></li>
+                <li role="presentation" class="col-lg-2"><a href="about.html">About Us</a></li>
+                <li role="presentation" class="col-lg-2"><a href="contact.html">Contact Us</a></li>
+                <li role="presentation" class="col-lg-2 active"><a href="sign_up.html">Sign Up</a></li>
+                <li role="presentation" class="col-lg-2"><a href="sign_in.html">Sign In</a></li>
+               
+                   
+              </ul>
+            </div>
+           
+            <div  id="body" class="container col-lg-12" >
+                        <div  class="container col-lg-12" >
+                           <div class="container col-lg-2">
+                               <br/>
+                               <br/>
+                               <h4> Sign Up </h4>
+
+                               <ul class="nav nav-pills nav-stacked  ">
+                                   <li role="presentation" ><a href="sign_up.html">Student Sign Up </a></li>
+                                   <li role="presentation" class=""><a href="staff_signup.html">Staff Sign Up</a></li>
+                               </ul>
+                           </div> 
+                           <div class="container col-lg-8">
+                               <h1> Staff Sign Up </h1>
+                                   <form class="form-horizontal" action="signup2.jsp" method="POST">
+                                       <div class="form-group">
+                                         <label for="inputName" class="col-sm-2 control-label">Name</label>
+                                         <div class="col-sm-10">
+                                           <input type="text" class="form-control "  name="inputName" placeholder="Full Name">
+                                         </div>
+                                       </div>
+                                       <div class="form-group">
+                                         <label for="inputStaff" class="col-sm-2 control-label">Staff ID</label>
+                                         <div class="col-sm-10">
+                                           <input type="number" class="form-control"  name="inputStaff" placeholder="Staff ID">
+                                         </div>
+                                       </div>
+                                       <div class="form-group">
+                                         <label for="inputDept" class="col-sm-2 control-label">Department</label>
+                                         <div class="col-sm-10">
+                                           <select class="form-control" placeholder="Department" name="inputDept">
+                                                 <option value="IT">IT</option>
+                                                <option value="CSE">CSE</option>
+                                                <option value="EEE">EEE</option>
+                                                <option value="ECE">ECE</option>
+                                                <option value="GEO">GEO</option>
+                                                <option value="MECH">MECH</option>
+                                                <option value="CIVIL">CIVIL</option>
+                                                <option value="MINING">MINING</option>   
+                                          </select>
+
+                                         </div>
+                                       </div>
+                                      <div class="form-group">
+                                         <label for="inputMailid" class="col-sm-2 control-label">Mail ID</label>
+                                         <div class="col-sm-10">
+                                           <input type="email" class="form-control" name="inputMailid" placeholder="Mail ID">
+                                         </div>
+                                       </div>
+                                      <div class="form-group">
+                                         <label for="inputDesig" class="col-sm-2 control-label">Designation</label>
+                                         <div class="col-sm-10">
+                                           <select class="form-control" placeholder="Designation" name="inputDesig">
+                                            <optgroup label="III Sem">
+                                                <option value="3G">Class Advisor III Sem G Batch</option>
+                                                <option value="3H">Class Advisor III Sem H Batch</option>
+                                            </optgroup>
+                                            <optgroup label="V Sem">
+                                                <option value="5G">Class Advisor V Sem G Batch</option>
+                                                <option value="5H">Class Advisor V Sem H Batch</option>
+                                            </optgroup>
+                                            <optgroup label="VII Sem">
+                                                <option value="7G">Class Advisor VII Sem G Batch</option>
+                                                <option value="7H">Class Advisor VII Sem H Batch</option>
+                                            </optgroup>
+                                            <optgroup label="I Sem">
+                                                <option value="1G">Class Advisor I Sem G Batch</option>
+                                                <option value="1H">Class Advisor I Sem H Batch</option>
+                                            </optgroup>
+                                            <optgroup >
+                                                <option default></option>
+                                              
+                                              <option value="HOD">HOD</option>
+                                              <option value="Dean">The Dean</option>
+                                            </optgroup>
+                                            
+                                          </select>
+
+                                         </div>
+                                       </div>
+                                       
+                                           
+                                      <div class="form-group">
+                                         <div class="col-sm-offset-2 col-sm-10">
+                                           <button type="submit" class="btn btn-default">Sign Up</button>
+                                         </div>
+                                       </div>
+                                     </form>
+                                   
+                               <!--//row -->
+                           </div>
+                           <div class="container col-lg-2"></div>
+                       </div> 
+                    
+             </div>
+            
+            </div>
+            
+            <div  id="footer" class="container col-lg-12" style="background-color:#00004d;color:white;">
+                <p align="right">Designed by Niranjan,Dyan,Jeba</p>
+            </div>
+        </div>
+    </body>
+</html>

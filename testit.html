@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script>
+        function myFunction(x,z)
+        {
+            if(z===1){
+            var y=x.value;
+            if(x.value.length===10)
+            x.style="border-color:green";
+            else
+            x.style="border-color:red";
+            x.tooltip("show");
+    }
+        }
+        </script>
+            
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <form>
+            <input type="text" onkeyup="myFunction(this,1)">
+            <input type="text" onkeyup="myFunction(this)">
+        </form> 
+        <!-- HTML to write -->
+<a href="#" data-toggle="tooltip" title="Some tooltip text!">Hover over me</a>
+
+<!-- Generated markup by the plugin -->
+<div class="tooltip top" role="tooltip">
+  <div class="tooltip-arrow"></div>
+  <div class="tooltip-inner">
+    Some tooltip text!
+  </div>
+</div>
+    </body>
+</html>
